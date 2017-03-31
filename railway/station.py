@@ -5,10 +5,12 @@
 """
 
 import os
+
 import xlrd
 import xlwt
-from railway.logger import Logger
 from xlutils.copy import copy
+
+from JData.logger import Logger
 
 runLog = Logger('logs/run.log')
 errorLog = Logger('logs/error.log')
